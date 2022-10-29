@@ -27,7 +27,7 @@
     --color--button--portfolio: #FFFFFF;
     --border: #EEEEEE;
     --header--border: #ECECEC;
-    --cart--set--gap: 30px;
+    --card--set--gap: 30px;
     --primary--font: 'Roboto', sans-serif;
     --secondary--font: 'Raleway', sans-serif;
 }
@@ -529,9 +529,9 @@
     }
 
     .portfolio-items {
-        flex-basis: calc(100% / 3 - var(--cart--set--gap));
-        margin-right: var(--cart--set--gap);
-        margin-bottom: var(--cart--set--gap);
+        flex-basis: calc(100% / 3 - var(--card--set--gap));
+        margin-right: var(--card--set--gap);
+        margin-bottom: var(--card--set--gap);
         background: var(--background--color);
     }
 
